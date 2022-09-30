@@ -32,7 +32,7 @@ body {
 .is-loading #main,
 .is-loading .logo,
 .is-loading .burger,
-.is-loading .main-nav,
+.is-loading ,
 .is-loading .fill-background {
   display: none; 
 }
@@ -161,9 +161,7 @@ body {
 }
 
 /* Reveal logo and move buger when the user scrolls */
-.has-scrolled .burger {
-  transform: translateX(100%)
-}
+
 .has-scrolled .logo__img {
   opacity: 1;
 }
@@ -644,6 +642,12 @@ section {
   line-height: 1.192307692;
   font-weight: normal;
   letter-spacing: 0.2vw;
+}
+.blog__animation{
+  position: absolute;
+  right: 10%;
+  width: auto;
+  bottom: 20%;
 }
 
 /* =Contact - same layout as blog, but flipped image and text */
