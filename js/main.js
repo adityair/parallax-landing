@@ -1,6 +1,5 @@
 gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(CustomEase)
-gsap.registerPlugin(CustomWiggle)
 
 let bodyScrollBar
 
@@ -599,7 +598,7 @@ const makeDrip = () => {
 	
 	let tl = gsap.timeline({
 		defaults: {
-			ease: CustomWiggle.create('', {type: 'easeOut', wiggles: gsap.utils.random(9, 12)})
+			ease: CustomEase.create('', {type: 'easeOut'})
 		}
 	});
 
