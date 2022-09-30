@@ -1,0 +1,164 @@
+#wrapper{
+    background-color: black;
+    position: relative;
+}
+
+.header, .header-wrapper{
+    box-shadow: none !important;
+}
+
+.header, .stuck{
+   padding: 20px;
+}
+
+.header, .header-wrapper{
+    width: 100%;
+    z-index: 30;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 0;
+    transition: backgroun-color .3s, opacity .3s;
+}
+
+.header-main{
+    height: 70px;
+    z-index: 10;
+    position: relative;
+}
+
+.fill{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;  
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.header-bg-image, .header-bg-color{
+    background-position: 50% 0 ;
+    transition: background .4s;
+}
+
+.header-full-width  .container {
+    max-width:100% !important;
+}
+
+.header .flex-row{
+    height: 100%;
+}
+
+.container-width, .full-width, .ubermenu-nav, .container, .row{
+max-width: 1070px;
+}
+
+.flex-row{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    width: 172px;
+}
+
+#logo a{
+    max-width: 350px;
+}
+
+#logo img{
+    padding: 15px 0;
+}
+
+#logo img{
+    max-width: 70px;
+}
+
+.logo img{
+    width: auto;
+}
+
+.header-wrapper:not(.stuck)
+.logo img{
+    transition: max-height .5s;
+}
+
+img{
+    opacity: 1;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline block;
+}
+
+img{
+    border-style: none;
+}
+
+.logo a{
+    text-decoration: none;
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.logo-left .logo{
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.logo{
+    line-height: 1;
+    margin: 0;
+}
+
+
+.flex-col{
+    max-height: 100%;
+}
+
+.flex-row{
+    -webkit-box-direction: normal;
+}
+
+.nav-left{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-flow:row wrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 850px)  {
+    .show-for-medium{
+        display: none !important;
+    }
+    
+}
